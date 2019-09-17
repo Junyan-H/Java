@@ -7,7 +7,10 @@
 
 package frc.robot.commands;
 
+<<<<<<< HEAD
 import edu.wpi.first.wpilibj.GenericHID.Hand;
+=======
+>>>>>>> b49bcc5a28a35a5f7e52a04c3e5d8f16b7afd2ea
 import edu.wpi.first.wpilibj.command.Command;
 import frc.robot.Robot;
 
@@ -26,6 +29,7 @@ public class DriveCommand extends Command {
   // Called repeatedly when this Command is scheduled to run
   @Override
   protected void execute() {
+<<<<<<< HEAD
    //xbox
     /*
     double Lval = Robot.oi.xboxController.getX(Hand.kLeft);
@@ -37,6 +41,12 @@ public class DriveCommand extends Command {
     Robot.drivesubsystem.TankDrive(Lval, Rval);
   
     
+=======
+    double Lval = Robot.oi.Lstick.getY();
+    double Rval= Robot.oi.Rstick.getY();
+    
+    Robot.drivesubsystem.TankDrive(Lval, Rval);
+>>>>>>> b49bcc5a28a35a5f7e52a04c3e5d8f16b7afd2ea
   }
 
   // Make this return true when this Command no longer needs to run execute()

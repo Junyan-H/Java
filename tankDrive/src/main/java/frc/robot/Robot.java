@@ -13,10 +13,15 @@ import edu.wpi.first.wpilibj.command.Scheduler;
 import edu.wpi.first.wpilibj.smartdashboard.SendableChooser;
 import edu.wpi.first.wpilibj.smartdashboard.SmartDashboard;
 import frc.robot.commands.ExampleCommand;
+<<<<<<< HEAD
 import frc.robot.commands.mechcontrol_Command;
 import frc.robot.subsystems.DriveSubsystem;
 import frc.robot.subsystems.ExampleSubsystem;
 import frc.robot.subsystems.mechcontrol_Subsystem;
+=======
+import frc.robot.subsystems.DriveSubsystem;
+import frc.robot.subsystems.ExampleSubsystem;
+>>>>>>> b49bcc5a28a35a5f7e52a04c3e5d8f16b7afd2ea
 
 /**
  * The VM is configured to automatically run this class, and to call the
@@ -28,7 +33,10 @@ import frc.robot.subsystems.mechcontrol_Subsystem;
 public class Robot extends TimedRobot {
   public static ExampleSubsystem m_subsystem = new ExampleSubsystem();
   public static DriveSubsystem drivesubsystem = new DriveSubsystem();
+<<<<<<< HEAD
   public static mechcontrol_Subsystem mechControl = new mechcontrol_Subsystem();
+=======
+>>>>>>> b49bcc5a28a35a5f7e52a04c3e5d8f16b7afd2ea
   public static OI oi;
 
   Command m_autonomousCommand;
