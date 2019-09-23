@@ -7,36 +7,26 @@
 
 package frc.robot;
 import edu.wpi.first.wpilibj.Joystick;
-<<<<<<< HEAD
 import edu.wpi.first.wpilibj.XboxController;
 import edu.wpi.first.wpilibj.buttons.JoystickButton;
-=======
->>>>>>> b49bcc5a28a35a5f7e52a04c3e5d8f16b7afd2ea
 /**
  * This class is the glue that binds the controls on the physical operator
  * interface to the commands and command groups that allow control of the robot.
  */
 public class OI {
-<<<<<<< HEAD
   //JOYSTICK CODES AND PORTS
     public  Joystick Lstick;
     public Joystick Rstick;
-    // public JoystickButton wJoystickButton = new JoystickButton(Lstick, 3);
+    public JoystickButton wJoystickButton;
   // XboxController
     // public XboxController xboxController;
   OI(){
     //xboxController = new XboxController(1);
     Lstick = new Joystick(0);
     Rstick= new Joystick(1);
+    wJoystickButton = new JoystickButton(Lstick, 3);
+    
   }
-=======
-  
- public  Joystick Lstick = new Joystick(0);
-  public Joystick Rstick = new Joystick(1);
- OI(){
-
- }
->>>>>>> b49bcc5a28a35a5f7e52a04c3e5d8f16b7afd2ea
   //// CREATING BUTTONS
   // One type of button is a joystick button which is any button on a
   //// joystick.
